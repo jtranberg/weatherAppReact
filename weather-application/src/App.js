@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+
+function moreInfo() {
+  return window.alert('cats rule all')
+}
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+return(
+  <div>
+<h1>weather App</h1>
+<p>Weather app</p>
+<button onClick={moreInfo}>cLick for more info</button><br/>
+<br/>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiwzxzSK5AXeQ5qLK8j7q1ulkpIjzeVlB3SQ&usqp=CAU" alt="pic"/>
+  </div>)
 }
 
 export default App;
